@@ -13,13 +13,13 @@ Solution:
 
 Step-1: Login to minikube cloud cluster by going to below link and clicking on ‘Launch Terminal’ button in blue color under ‘Create minikube cluster’ section:
 
-	https://kubernetes.io/docs/tutorials/hello-minikube/	
+  https://kubernetes.io/docs/tutorials/hello-minikube/	
 
 You can also choose to deploy to your own minikube cluster but that might give problems while using hostport. For my assignment, I have used the one on katakoda from link above.
 
 Step-2: Download all the project artifacts directly using wget command as below and cd into it:
 
-	wget https://github.com/ankur512512/backbase-a1.git
+	git clone https://github.com/ankur512512/backbase-a1.git
 	cd backbase-a1
 
 Step-3: I have assumed that we would be having a Docker repo somewhere and have created a fresh account for this assignment with below credentials:
@@ -49,7 +49,7 @@ Wait for the pods to come in ready state using this:
 	
 Step -5: Time to test. 
 
-    a.) Test the tomcat deployment by using curl command as below:
+  a.) Test the tomcat deployment by using curl command as below:
 
 	curl `minikube ip`:8090/sample/
 
@@ -84,7 +84,10 @@ This should give output like this:
 	</body>
 	</html>	
 	
-	b.) Test the nginx deployment using below curl command:
+
+
+
+  b.) Test the nginx deployment using below curl command:
 	
 		curl `minikube ip`:8080
 
