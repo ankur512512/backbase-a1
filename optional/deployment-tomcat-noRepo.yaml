@@ -16,7 +16,14 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: backbasedevops/tomcat
+        image: tomcat:8.0
         ports:
         - containerPort: 8080
           hostPort: 8090
+        command: ["/bin/sh"]
+        command:
+        - bash
+        - "-c"
+        - |
+          wget https://tomcat.apache.org/tomcat-8.0-doc/appdev/sample/sample.war -P /usr/local/tomcat/webapps/  
+          catalina.sh run
