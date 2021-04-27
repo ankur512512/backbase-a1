@@ -17,10 +17,12 @@ Step-1: Login to minikube cloud cluster by going to below link and clicking on â
 
 You can also choose to deploy to your own minikube cluster but that might give problems while using hostport. For my assignment, I have used the one on katakoda from link above.
 
+
 Step-2: Download all the project artifacts directly using wget command as below and cd into it:
 
 	git clone https://github.com/ankur512512/backbase-a1.git
 	cd backbase-a1
+
 
 Step-3: I have assumed that we would be having a Docker registry somewhere to store our images and thus I have created a fresh account on dockerhub for this assignment with below credentials:
 
@@ -37,6 +39,7 @@ Now use these commands to login to docker hub and then build and push our custom
 	
   (In case we decide not to have a docker registry, I have given an alternate solution as well for that, to do the changes directly via bash script in kubernetes)
 	
+
 Step-4: We are ready to create our deployments in kubernetes now. Run below commands to create and start the deployments:
 
 	kubectl apply -f .
@@ -47,6 +50,7 @@ Wait for the pods to come in ready state using this:
 	
 	(Hit ctrl+c when ready)
 	
+
 Step -5: Time to test. 
 
   a.) Test the tomcat deployment by using curl command as below:
