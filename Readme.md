@@ -83,7 +83,22 @@ This should give output like this:
 
 	</body>
 	</html>	
-	
+  	
+  If you want to check it via web-browser UI as well, then click on the '+' sign at the top of the minikube terminal (next to the preview port 30000).
+  
+  ![image](https://user-images.githubusercontent.com/12583640/116216256-0f4adf80-a766-11eb-98c3-55a3cc2826bd.png)
+
+  Then select 'Select Port to view on Host 1':
+
+  ![image](https://user-images.githubusercontent.com/12583640/116216617-6ea8ef80-a766-11eb-9093-06bff3db794c.png)
+  
+  Enter the port number '8090' in the text box next to the 'Display Port' button and hit enter:
+  
+  ![image](https://user-images.githubusercontent.com/12583640/116216742-8ed8ae80-a766-11eb-97a3-3b3bf730a025.png)
+
+  You will see the default tomcat page. Append the URL with '/sample/' to view the content of sample.war file and hit enter. It would look like this:
+  
+  ![image](https://user-images.githubusercontent.com/12583640/116217013-dfe8a280-a766-11eb-89a8-e254e1586b38.png)
 
 
 
@@ -95,6 +110,15 @@ This will give you a simple output like below:
 			
 		"hello world" 
 			
+If you want to check it via web-browser UI as well, then click on the '+' sign at the top of the minikube terminal (next to the preview port 30000).
+
+Then select 'Select Port to view on Host 1'.
+
+Enter the port number '8080' in the text box next to the 'Display Port' button and hit enter. It should look like this:
+
+![image](https://user-images.githubusercontent.com/12583640/116217463-48d01a80-a767-11eb-8906-255974539064.png)
+
+
 			
 ######## Alternate Method (Optional)############################################3
 	
