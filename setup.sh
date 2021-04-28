@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "Log in to docker...\n\n"
 docker login -u backbasedevops -p backbase@123
 
