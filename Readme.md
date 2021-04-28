@@ -13,7 +13,9 @@ Solution:
 
 Step-1: Login to minikube cloud cluster by going to below link and clicking on ‘Launch Terminal’ button in blue color under ‘Create minikube cluster’ section:
 
-  https://kubernetes.io/docs/tutorials/hello-minikube/	
+  https://kubernetes.io/docs/tutorials/hello-minikube/
+  
+  (Wait for a couple of minutes or so for the cluster to get started)
 
 You can also choose to deploy to your own minikube cluster but that might give problems while using hostport. For my assignment, I have used the one on katakoda from link above.
 
