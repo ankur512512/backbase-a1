@@ -25,6 +25,14 @@ Step-2: Download all the project artifacts directly using git clone command as b
 	git clone https://github.com/ankur512512/backbase-a1.git
 	cd backbase-a1
 
+####Optional one-click setup
+
+(If you don't want to execute each and every command for deployment then you can directly use setup.sh script as well. You will need to give execute permission first)
+		
+		chmod 755 setup.sh
+		./setup.sh
+
+############################
 
 Step-3: I have assumed that we would be having a Docker registry somewhere to store our images and thus I have created a fresh account on dockerhub for this assignment with below credentials:
 
