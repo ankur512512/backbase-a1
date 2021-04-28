@@ -18,7 +18,7 @@ Step-1: Login to minikube cloud cluster by going to below link and clicking on â
 You can also choose to deploy to your own minikube cluster but that might give problems while using hostport. For my assignment, I have used the one on katakoda from link above.
 
 
-Step-2: Download all the project artifacts directly using wget command as below and cd into it:
+Step-2: Download all the project artifacts directly using git clone command as below and cd into it:
 
 	git clone https://github.com/ankur512512/backbase-a1.git
 	cd backbase-a1
