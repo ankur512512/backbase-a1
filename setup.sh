@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "Log in to docker...\n\n"
+echo -e "\n\nLog in to docker...\n\n"
 docker login -u backbasedevops -p backbase@123
 
 echo -e "\n\nBuilding and tagging Docker images\n\n"
