@@ -130,6 +130,7 @@ Enter the port number '8080' in the text box next to the 'Display Port' button a
 	
 If you don't have any container registry then follow steps 1 and 2 as above. After that use below commands:
 
+	kubectl delete deploy tomcat-deployment nginx-deployment   (just in case you are using the same terminal, need to cleanup the old deploys)
 	kubectl apply -f optional/
 
 Wait for the pods to get ready.
